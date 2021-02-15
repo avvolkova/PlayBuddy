@@ -1,0 +1,90 @@
+.headCont {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+
+.titles {
+  text-align: center;
+  color: #e9e9e9;
+
+}
+
+.chatsConteiner {
+  min-width: 30%;
+  padding: 20px;
+  position:fixed;
+  min-height: 87%;
+  bottom: 3%;
+  top: 8.6%;
+  left: 3%;
+  right: 70%;
+  overflow-y: scroll;
+}
+
+.headConteiner{
+  position: fixed;
+  min-width: 94%;
+  left: 3%;
+  right: 3%;
+  min-height: 3%;
+  top: 3%;
+  bottom: 91.3%;
+  padding: 1%;
+  text-align: center;
+  color: #e9e9e9;
+}
+
+.hamburger {
+  height: 32px;
+  width: 32px;
+  margin: 32px 0 0 28px;
+}
+
+.wrapper {
+  width: 100%;
+  height: 90vh;
+  color: #fff;
+  background: linear-gradient(-45deg, #EE7752, #E73C7E, #23A6D5, #23D5AB);
+  background-size: 400% 400%;
+  -webkit-animation: Gradient 35s ease infinite;
+  -moz-animation: Gradient 35s ease infinite;
+  animation: Gradient 35s ease infinite;
+}
+
+@-webkit-keyframes Gradient {
+  0% {
+      background-position: 0% 50%
+  }
+  50% {
+      background-position: 100% 50%
+  }
+  100% {
+      background-position: 0% 50%
+  }
+}
+
+@-moz-keyframes Gradient {
+  0% {
+      background-position: 0% 50%
+  }
+  50% {
+      background-position: 100% 50%
+  }
+  100% {
+      background-position: 0% 50%
+  }
+}
+
+@keyframes Gradient {
+  0% {
+      background-position: 0% 50%
+  }
+  50% {
+      background-position: 100% 50%
+  }
+  100% {
+      background-position: 0% 50%
+  }
+}

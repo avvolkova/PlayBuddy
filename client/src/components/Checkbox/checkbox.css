@@ -1,0 +1,14 @@
+.checkbox-wrapper{
+    padding-top: 1.4rem;
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+    justify-content: center;
+    font-size: 1.2rem;
+}
+.form-check-label {
+    font-size: .8rem;
+}
+.form-check-inline {
+    margin: 0;
+}

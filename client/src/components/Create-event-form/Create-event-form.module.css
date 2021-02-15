@@ -1,0 +1,21 @@
+.picker {
+    display: block;
+    margin-bottom: 1rem;
+}
+
+.picker .react-date-picker__wrapper {
+    border: 0px;
+    height: 60px !important;
+    color: white;
+}
+
+.formBg {
+    min-height: 100vh;
+    padding-top: 30px;
+    color: white;
+}
+
+.centering {
+    width: 55vw;
+    margin: 0 auto;
+}

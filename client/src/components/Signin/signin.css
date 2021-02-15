@@ -1,0 +1,28 @@
+.wrapper {
+    /*height: 100vh;*/
+}
+.container {
+    padding-top: 6rem;
+}
+.text-error {
+    color: #f4f9f9;
+    font-size: 1.2rem;
+}
+.google {
+    text-decoration: none;
+}
+.vk {
+    text-decoration: none;
+}
+.create {
+    text-decoration: none;
+    text-align: center;
+    font-size: 1.1rem;
+    color: #f4f9f9;
+    width: 350px;
+    margin: 0 auto;
+}
+i {
+    margin-right: 10px;
+}
+

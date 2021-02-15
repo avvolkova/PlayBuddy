@@ -1,0 +1,42 @@
+.appName {
+    font-size: 80px;
+    text-align: center;
+    font-family: 'BalsamiqSans-Bold';
+    padding-bottom: 4rem;
+}
+
+@media (max-width: 1420px) {
+    .appName {
+        font-size: 65px;
+        text-align: center;
+        font-family: 'BalsamiqSans-Bold';
+        padding-bottom: 0;
+    }
+}
+
+
+/*.giphy {*/
+
+
+/*  width: 70px;*/
+
+
+/*  height: 70px;*/
+
+
+/*}*/
+
+
+/*.logo {*/
+
+
+/*  width: 200px;*/
+
+
+/*  height: 200px;*/
+
+
+/*  border-radius: 80%;*/
+
+
+/*}*/

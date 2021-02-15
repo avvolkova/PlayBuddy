@@ -1,0 +1,178 @@
+.eventBg {
+    min-height: 100vh;
+    padding-top: 30px;
+    font-family: 'BalsamiqSans-Bold';
+    color: white;
+}
+
+.centering {
+    width: 55vw;
+    margin: 0 auto;
+}
+.hamburger {
+    height: 32px;
+    width: 32px;
+    margin: 32px 0 0 28px;
+    position: absolute;
+}
+
+.hamburger {
+    height: 32px;
+    width: 32px;
+    margin: 32px 0 0 28px;
+    position: absolute;
+}
+
+.eventWrapper {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.eventWrapper img {
+    box-shadow: 1px 1px 3px #8b8a97;
+    margin: 0 15px;
+}
+
+.eventMainInfo {
+    display: flex;
+    flex-direction: column;
+}
+
+.sticker {
+    position: relative;
+    top: -55%;
+}
+
+.sticker span {
+    font-size: 0.7em;
+    position: absolute;
+    top: 45%;
+    left: 7%;
+    font-weight: bold;
+    z-index: 1;
+}
+
+.img {
+    height: 140px;
+    object-fit: contain;
+}
+
+.title {
+    display: inline-block;
+    margin-left: 10%;
+    margin-top: 20px;
+}
+
+.cardTitle a {
+    text-decoration: none;
+    color: #9658b3d2;
+}
+
+.flex {
+    display: flex;
+    flex-direction: column;
+    min-height: 88vh;
+    justify-content: space-between;
+}
+
+.myGroup {
+    margin-left: 4vw;
+}
+
+.myCard {
+    min-width: 19vw;
+    max-width: 19vw;
+    margin-right: 4vw;
+    padding: 15px;
+    box-shadow: 4px 4px 7px rgba(170, 163, 163, 0.794);
+    background-color: #ededf3;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.bodyRelative {
+    position: relative;
+    top: -36%;
+    height: 50px;
+    padding: 0;
+    font-size: 0.8em;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.myCardbBody {
+    height: 50px;
+    font-size: 0.8em;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.btn {
+    margin-top: 1%;
+    font-size: 12px;
+    width: 13vw;
+    display: inline-block;
+    background-color: rgb(116, 76, 143);
+}
+
+.btnLarge {
+    width: 300px;
+    margin: 4vw;
+    color: #414440;
+    background-color: #31d2f2;
+    border-color: #25cff2;
+    padding: 8px;
+    border-radius: 10px;
+}
+
+.btnLarge:hover {
+    background-color: #afe2ec;
+}
+
+.eventDetails {
+    display: flex;
+    justify-content: center;
+}
+
+.eventDetails span {
+    background-color: #53508E;
+    box-shadow: 1px 1px 3px #8b8a97;
+    padding: 6px;
+    margin: 5px 5px;
+    font-size: 10px;
+    border-radius: 10px;
+}
+
+.ava {
+    border-radius: 50%;
+    object-fit: cover;
+    height: 50px;
+    width: 50px;
+}
+
+.participant {
+    margin-right: 20px;
+    margin-top: 0;
+    display: inline-flex;
+    font-size: 14px;
+}
+
+.participant::before {
+    content: "✵";
+    margin-right: 10px;
+}
+
+.thumbnailPic {
+    width: 210px;
+    height: 210px;
+    border-radius: 10px;
+}
+
+span {
+    font-size: 15px!important;
+}
