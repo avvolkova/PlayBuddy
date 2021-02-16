@@ -7,8 +7,8 @@
         "client-install": "cd client && npm install",
         "server": "nodemon server.js",
         "client": "npm start --prefix client",
-        "start": "concurrently \"npm run server\" \"npm run client\"",
-        "heroku-postbuild": "npm i && npm run client-install"
+        "start": "node server.js",
+        "heroku-postbuild": "cd client && yarn && yarn run build"
     },
     "author": "",
     "license": "ISC",

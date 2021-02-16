@@ -32,7 +32,7 @@ app.use(express.urlencoded({ extended: true }))
 
 app.set('trust proxy', 2)
 app.use(cors())
-app.use(express.static(path.join(__dirname, 'client/public')))
+app.use(express.static(path.join(__dirname, 'client/build')))
 app.set('sessionName', 'sid')
 
 
