@@ -61,14 +61,14 @@ router.get(
 
 router.get("/google/callback", passport.authenticate("google"), (req, res) => {
   req.session.user = { id: req.user._id, name: req.user.name };
-  res.redirect("http://0.0.0.0:3000/");
+  res.redirect(`http://${process.env.DOMAIN}:3000/`);
 });
 
 router.get("/auth/vkontakte", passport.authenticate("vkontakte"));
 
 router.get("/vk/callback", passport.authenticate("vkontakte"), (req, res) => {
   req.session.user = { id: req.user._id, name: req.user.name };
-  res.redirect("http://0.0.0.0:3000/");
+  res.redirect(`http://${process.env.DOMAIN}:3000/`);
 });
 
 router.get("/logout", async (req, res) => {

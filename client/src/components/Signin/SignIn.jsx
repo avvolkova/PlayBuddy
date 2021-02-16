@@ -76,13 +76,13 @@ const Signin = () => {
             Войти
           </button>
           <a
-            href="http://0.0.0.0:3001/user/google"
+            href={`http://${process.env.DOMAIN}:3001/user/google`}
             className="btn btn-primary btn-sm  google form-text col-md-2 offset-md-5 mb-2"
           >
             Войти <i className="fab fa-google" />
           </a>
           <a
-            href="http://0.0.0.0:3001/user/auth/vkontakte"
+            href={`http://${process.env.DOMAIN}:3001/user/auth/vkontakte`}
             className="btn btn-sm btn-primary vk form-text col-md-2 offset-md-5 mb-2"
           >
             Войти <i className="fab fa-vk" />

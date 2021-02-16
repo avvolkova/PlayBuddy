@@ -125,7 +125,7 @@ const EventMap = () => {
                             geometry={event.coordinates}
                             options={{
                               iconLayout: "default#image",
-                              iconImageHref: `http://0.0.0.0:3001${event.thumbnail}`,
+                              iconImageHref: `http://${process.env.DOMAIN}:3001${event.thumbnail}`,
                               iconImageSize: [40, 40],
                             }}
                           />
@@ -143,4 +143,4 @@ const EventMap = () => {
 };
 
 export default EventMap;
-//http://0.0.0.0:3000/event-page/60264e1bf8ce1f363421e565
+//http://${process.env.DOMAIN}:3000/event-page/60264e1bf8ce1f363421e565
