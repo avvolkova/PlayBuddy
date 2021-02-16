@@ -81,6 +81,6 @@ app.use('/event', eventRoutes)
 wsSerever.on('close', () => {
   console.log('good bye');
 });
-app.listen(process.env.PORT, '0.0.0.0', () => {
+app.listen(process.env.PORT, () => {
   console.log(`Server has been started on port ${process.env.PORT}`)
 })
