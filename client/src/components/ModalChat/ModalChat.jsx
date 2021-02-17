@@ -5,7 +5,7 @@ import { addMessageActionCreator } from "../../redux/action-creators/createEvent
 import styles from './ModalChat.module.css'
 import './ModalChat.css'
 
-const wsClient = new WebSocket(`ws://${process.env.DOMAIN}:1234`);
+const wsClient = new WebSocket(`wss://${process.env.DOMAIN}:1234`);
 
 
 function ModalCHat() {
