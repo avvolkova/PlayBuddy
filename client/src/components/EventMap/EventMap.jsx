@@ -125,7 +125,7 @@ const EventMap = () => {
                             geometry={event.coordinates}
                             options={{
                               iconLayout: "default#image",
-                              iconImageHref: `http://${process.env.DOMAIN}:3001${event.thumbnail}`,
+                              iconImageHref: `http://${process.env.REACT_APP_DOMAIN}:3001${event.thumbnail}`,
                               iconImageSize: [40, 40],
                             }}
                           />
